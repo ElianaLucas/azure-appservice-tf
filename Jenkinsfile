@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/ElianaLucas/azure-appservice-tf.git'
+                git branch: 'main', url: 'https://github.com/ElianaLucas/azure-appservice-tf'
             }
         }
 
