@@ -8,7 +8,8 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/jaimepsayago/azure-appservice-tf'            }
+                git branch: 'main', url: 'https://github.com/ElianaLucas/azure-appservice-tf.git'
+            }
         }
 
         stage('Autenticación Azure') {
